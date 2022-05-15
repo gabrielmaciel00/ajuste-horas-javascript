@@ -1,0 +1,115 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+    background:rgb(51, 50, 50);
+}
+main header{
+    height: 10rem;
+}
+main header .calendario{
+    margin: 0 auto;
+    height: 100%;
+    width: 15rem;
+    background: rgb(248, 243, 243);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+main header .calendario .hora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    flex-direction:row;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+main header .calendario .data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction:row;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.apontamentos{
+    padding: 1rem;
+    margin-top: 2rem !important;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.apontamentos .bater-encerrrar{
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.apontamentos .ajustar-relatorios{
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+}
+.apontamentos button{
+    padding: .5rem;
+    width:10rem;
+    border: 0;
+    background: #633BBC;
+    border-radius:.5rem ;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-right: 1rem;
+}
+
+.table{
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table table{
+    font-family: arial, sans-serif;
+     border-collapse: collapse; 
+    width: 100%;
+    color: #ffffff;
+    
+}
+
+
+td, th{
+     border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+.toast{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    background: rgb(22, 194, 39);
+    width:15rem;
+    padding: .5rem;
+    color: #fff;
+    border-radius: 1rem;
+    animation: mymove 1s; ;
+   
+}
+@keyframes mymove {
+    from {right: -250px;}
+    to {right: 0;}
+  }
