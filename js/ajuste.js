@@ -47,7 +47,7 @@ const tabela = document.getElementById('configuracoes')
 bater.onclick =()=>{
 
     let toast = new Toast({
-        text:'Sucesso!'
+        text:'Ponto batido com sucesso!'
     })
 
     console.log(toast)
